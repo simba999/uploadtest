@@ -10,8 +10,8 @@ export class AuthService {
   user: any;
 
   constructor(private http: Http) {
-      this.isDev = true;  // Change to false before deployment
-      }
+    this.isDev = true;  // Change to false before deployment
+  }
 
   registerUser(user) {
     let headers = new Headers();
